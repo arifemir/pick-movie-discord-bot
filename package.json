@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "start:dev": "env-cmd -f .env.development nodemon index.js",
     "deploy-commands": "env-cmd -f .env.development node deploy-commands.js"
   },
